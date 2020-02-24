@@ -5,11 +5,11 @@
 		$sender = $_POST["email"];
 		$msg = $_POST["message"];
 		$recipient = "goras.francesco@gmail.com";
-		$headers = "From: francescogorini.com \r\n";
+		$headers = "From: portfolio\r\n";
 	    $headers .= "Reply-To: $sender \r\n";
 		$headers .= "Return-Path: francescogorini.com\r\n";
 
-		if (mail($recipient, "francescogorini.com message from ".$name, $msg, $headers)) {
+		if (mail($recipient, "Message from ".$name, $msg, $headers)) {
             echo "Message accepted";
         }
         else {

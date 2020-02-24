@@ -37,7 +37,7 @@
     <div class="intro">
         <h1 class="intro_h1">Hi, im
             <div class="highlighted_text">Francesco Gorini</div>,<br>
-            A Software Engineering student
+            A Software Developer
         </h1>
         <a class="home_about_me_btn" href="#header_projects_divider">Projects <i class="fas fa-arrow-right rotate"></i></a>
     </div>
@@ -49,19 +49,19 @@
 </div>
 <div class="content_container projects">
     <div class="projects_container">
-        <h1 class="projects_title">Personal projects</h1>
+        <h1 class="projects_title">Projects</h1>
         <ul class="projects_list">
             <li>
                 <div class="projects_list_link_container">
-                    <a class="projects_list_link" href="https://github.com/reznik99/C-OpenGL-3D-Engine">
-                        <div><p>Front-end: HTML, CSS and JS with JQuery framework<br>Back-end: PHP and MYSQL</p></div>
+                    <a class="projects_list_link" href="https://github.com/reznik99/C-OpenGL-3D-Engine" target="_blank">
+                        <div><p>C++, OpenGL, GLSL.</p></div>
                     </a>
                 </div>
                 <article>
                     <h1>GEngine 3D engine</h1>
                     <p>3D engine built from scratch using C++ and the OpenGL Standard.
-                        Some features on the way are: Bump/Normal mapping, PCF(Percentage Closer Filtering/Smooth shadows), CSM(Cascading Shadow Maps), LOD, Object Collision</p><br>
-                    <ul> <b>Features Implemented</b>
+                        Some features i plan to implement: Bump/Normal mapping, PCF(Percentage Closer Filtering/Smooth shadows), CSM(Cascading Shadow Maps), LOD(Level Of Detail), Object Collision</p><br>
+                    <ul> <b>Features Implemented</b><br>
                         <li>Multiplayer (30 tick server)</li>
                         <li>Shadows</li>
                         <li>Water (Reflection & Refraction)</li>
@@ -73,13 +73,14 @@
                                 class="fas fa-desktop"></i></a>
                         <a href="https://github.com/reznik99/C-OpenGL-3D-Engine"><i class="fas fa-code"></i></a>
                     </div>
-                    <p><br>Tags: HTML, CSS, JS, JQuery, PHP, MySQL, Apache, RaspberryPi</p>
+                    <p><br>Tags: <i class="devicon-cplusplus-plain colored fa-2x"></i>, <img src="resources/opengl.png">, GLSL. <br>
+                        (Same engine w/o multiplayer also in <i class="devicon-java-plain-wordmark colored fa-2x"></i> and LWJGL)</p>
                 </article>
             </li>
             <li>
                 <div class="projects_list_link_container">
-                    <a class="projects_list_link" href="http://167.172.213.48/">
-                        <div><p>Front-end: HTML, CSS and JS with JQuery framework<br>Back-end: PHP and MYSQL</p></div>
+                    <a class="projects_list_link" href="http://167.172.213.48/" target="_blank">
+                        <div><p>Front-end: <i class="fab fa-html5"></i>, <i class="fab fa-css3"></i> and <i class="fab fa-js"></i> with JQuery framework<br>Back-end: PHP and MYSQL</p></div>
                     </a>
                 </div>
                 <article>
@@ -87,18 +88,20 @@
                     <p>Made this webapp for personal use to store/backup data, Works on account by account basis.
                         Each user has their own storage, also has `shared/public` storage which are files that can be
                         seen/downloaded by other users.
-                        Max file upload is 20MB because i lack HDD space. Was hosted on RaspberryPi, code will be
-                        uploaded on github soon</p>
+                        Max file upload is 20MB because i lack HDD space. Was hosted on RaspberryPi until ISP blocked public IP. Now hosted on DigitalOcean VPS, code not yet on Github</p>
                     <div class="links">
                         <a href="http://167.172.213.48/login.php" target="_blank"><i class="fas fa-desktop"></i></a>
                         <a class="unclickable"><i class="fas fa-code"></i></a>
                     </div>
-                    <p><br>Tags: HTML, CSS, JS, JQuery, PHP, MySQL, Apache, RaspberryPi</p>
+                    <p><br>
+                        Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i class="devicon-css3-plain colored fa-2x"></i>, <i class="devicon-nodejs-plain colored fa-2x"></i> and <i class="devicon-jquery-plain-wordmark colored fa-2x"></i>.<br>
+                        Back-end: <i class="devicon-php-plain colored fa-2x"></i>, <i class="devicon-mysql-plain colored fa-2x"></i>, <i class="devicon-apache-line-wordmark fa-2x"></i>, RaspberryPi
+                    </p>
                 </article>
             </li>
             <li>
                 <div class="projects_list_link_container">
-                    <a class="projects_list_link" href="https://louisehaywardbooks.com">
+                    <a class="projects_list_link" href="https://louisehaywardbooks.com" target="_blank">
                         <div><p>Front-end: HTML, CSS and JS with JQuery framework<br>Back-end: PHP and MYSQL</p></div>
                     </a>
                 </div>
@@ -110,12 +113,15 @@
                         <a href="https://louisehaywardbooks.com" target="_blank"><i class="fas fa-desktop"></i></a>
                         <a class="unclickable"><i class="fas fa-code"></i></a>
                     </div>
-                    <p class="tags">Tags: HTML, CSS, JS, JQuery, PHP, MySQL</p>
+                    <p><br>
+                        Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i class="devicon-css3-plain colored fa-2x"></i>, <i class="devicon-nodejs-plain colored fa-2x"></i> and <i class="devicon-jquery-plain-wordmark colored fa-2x"></i>.<br>
+                        Back-end: <i class="devicon-php-plain colored fa-2x"></i>, <i class="devicon-mysql-plain colored fa-2x"></i>, <i class="devicon-apache-line-wordmark fa-2x"></i>
+                    </p>
                 </article>
             </li>
             <li>
                 <div class="projects_list_link_container">
-                    <a class="projects_list_link" href="mainframe/index.php">
+                    <a class="projects_list_link" href="mainframe/index.php" target="_blank">
                         <div><p>Front-end: HTML, CSS and JS with JQuery framework<br>Back-end: PHP and MySQL</p></div>
                     </a>
                 </div>
@@ -127,7 +133,10 @@
                         <a href="mainframe/index.php" target="_blank"><i class="fas fa-desktop"></i></a>
                         <a href="https://github.com/reznik99/mainframe" target="_blank"><i class="fas fa-code"></i></a>
                     </div>
-                    <p><br>Tags: HTML, CSS, JS, JQuery, PHP, MySQL, Apache, RaspberryPi</p>
+                    <p><br>
+                        Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i class="devicon-css3-plain colored fa-2x"></i>, <i class="devicon-nodejs-plain colored fa-2x"></i>.<br>
+                        Back-end: <i class="devicon-php-plain colored fa-2x"></i>, <i class="devicon-mysql-plain colored fa-2x"></i>
+                    </p>
                 </article>
             </li>
         </ul>
@@ -141,109 +150,19 @@
             </div>
             <div class="about_me">
                 <h1>About me</h1>
-                <p>I am a 3rd year student in Software Engineering in Victoria University of Wellington (VUW)
-                    I have a passion for learning. I am interested in: </p>
+                <p>I am a Computer Science student in the final Trimester in <a href="https://www.wgtn.ac.nz/" target="_blank">Victoria University of Wellington</a>.<br> Expected gradutation July 2020.
+                I enjoy: </p>
                 <ul class="about_me_list">
-                    <li>Football</li>
                     <li>Gym / Fitness</li>
-                    <li>Programming</li>
-                    <li>Physics</li>
-                    <li>Networking</li>
+                    <li>Programming, Networking and Electronics</li>
+                    <li>Physics and Engineering</li>
+                    <li>Driving</li>
                     <li>Videogames</li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
-<!--
-<div class="about_me_skills_divider">
-    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="75" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon points="0 100, 50 0, 100, 100" style="fill:#1b242f;"></polygon>
-    </svg>
-</div>
-
-<div class="content_container skills">
-    <div class="skills_container">
-        <h1 class="skills_title">Skills</h1>
-        <ul class="skills_list">
-            <li class="skills_list_item">HTML5 <div class="skills_list_icon"><i class="fab fa-html5 fa-2x"></i></div></li>
-            <li class="skills_list_item">CSS3 <div class="skills_list_icon"><i class="fab fa-css3-alt fa-2x"></i></div></li>
-            <li class="skills_list_item">JavaScript <div class="skills_list_icon"><i class="fab fa-js-square fa-2x"></i></div></li>
-            <li class="skills_list_item">PHP <div class="skills_list_icon"><i class="fab fa-php fa-2x"></i></div></li>
-            <li class="skills_list_item">MySQL <div class="skills_list_icon"><i class="fas fa-database fa-2x"></i></div></li>
-            <li class="skills_list_item">Java <div class="skills_list_icon"><i class="fab fa-java fa-2x"></i></div></li>
-            <li class="skills_list_item">C <div class="skills_list_icon"><i class="fab fa-cuttlefish fa-2x"></i></div></li>
-        </ul>
-        <div class="skills_description_arrow">
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <polygon points="0 100,100 100, 50 0" style="fill:#fff;"></polygon>
-            </svg>
-        </div>
-        <!- - Description for each skill - ->
-        <div class="skills_description HTML5" width="80">
-            <!- - <div class="language_grade">
-        </div> - ->
-        <div class="skill_level"></div>
-        <p> I have used HTML for every single web project. I feel confident with this tool.
-        </p>
-    </div>
-    <div class="skills_description CSS3" width="75">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at bibendum sem. Phasellus blandit dignissim
-            malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            Nulla sed faucibus tellus. Etiam consequat tellus sed ante facilisis, sed faucibus ex tincidunt.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus auctor leo
-            vitae auctor aliquet. Praesent sed tempor sapien. Praesent viverra aliquet laoreet. Nam enim risus,
-            congue ut dapibus ut, ultrices nec risus. Vivamus molestie pretium risus, lobortis semper ligula vehicula ac.
-        </p>
-    </div>
-    <div class="skills_description JavaScript"  width="70">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at bibendum sem. Phasellus blandit dignissim
-            malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            Nulla sed faucibus tellus. Etiam consequat tellus sed ante facilisis, sed faucibus ex tincidunt.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus auctor leo
-            vitae auctor aliquet. Praesent sed tempor sapien. Praesent viverra aliquet laoreet. Nam enim risus,
-            congue ut dapibus ut, ultrices nec risus. Vivamus molestie pretium risus, lobortis semper ligula vehicula ac.
-        </p>
-    </div>
-    <div class="skills_description PHP" width="65">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at bibendum sem. Phasellus blandit dignissim
-            malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            Nulla sed faucibus tellus. Etiam consequat tellus sed ante facilisis, sed faucibus ex tincidunt.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus auctor leo
-            vitae auctor aliquet. Praesent sed tempor sapien. Praesent viverra aliquet laoreet. Nam enim risus,
-            congue ut dapibus ut, ultrices nec risus. Vivamus molestie pretium risus, lobortis semper ligula vehicula ac.
-        </p>
-    </div>
-    <div class="skills_description MySQL" width="70">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at bibendum sem. Phasellus blandit dignissim
-            malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            Nulla sed faucibus tellus. Etiam consequat tellus sed ante facilisis, sed faucibus ex tincidunt.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus auctor leo
-            vitae auctor aliquet. Praesent sed tempor sapien. Praesent viverra aliquet laoreet. Nam enim risus,
-            congue ut dapibus ut, ultrices nec risus. Vivamus molestie pretium risus, lobortis semper ligula vehicula ac.
-        </p>
-    </div>
-    <div class="skills_description Java" width="85">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at bibendum sem. Phasellus blandit dignissim
-            malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            Nulla sed faucibus tellus. Etiam consequat tellus sed ante facilisis, sed faucibus ex tincidunt.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus auctor leo
-            vitae auctor aliquet. Praesent sed tempor sapien. Praesent viverra aliquet laoreet. Nam enim risus,
-            congue ut dapibus ut, ultrices nec risus. Vivamus molestie pretium risus, lobortis semper ligula vehicula ac.
-        </p>
-    </div>
-    <div class="skills_description C" width="65">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at bibendum sem. Phasellus blandit dignissim
-            malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            Nulla sed faucibus tellus. Etiam consequat tellus sed ante facilisis, sed faucibus ex tincidunt.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus auctor leo
-            vitae auctor aliquet. Praesent sed tempor sapien. Praesent viverra aliquet laoreet. Nam enim risus,
-            congue ut dapibus ut, ultrices nec risus. Vivamus molestie pretium risus, lobortis semper ligula vehicula ac.
-        </p>
-    </div>
-</div>
-</div>
--->
 
 <div class="angled_prefooter">
     <svg preserveAspectRatio="none" viewBox="0 0 100 100" height="75" width="100%" version="1.1"
@@ -253,7 +172,7 @@
 </div>
 <footer class="contact">
     <h1>Contact</h1>
-    <p class="under_h1_desc">Drop me an email to get in contact.</p>
+    <p class="under_h1_desc">Send me an email to get in contact.</p>
     <form class="send_message" method="post">
         <input type="text" name="name" placeholder="Name" required/>
         <input type="email" name="email" placeholder="Email" required/>
@@ -272,6 +191,7 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
       integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="script.js"></script>
 <script>

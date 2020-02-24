@@ -580,7 +580,7 @@ a, a:visited, a:active {
 	width: 25%;
 	overflow: hidden;
 	margin: 20px;
-	background: #4688f4ab;
+	background: transparent;/*#4688f4ab;*/
 }
 .projects_list li article{
 	width: 50%;
@@ -677,11 +677,11 @@ a, a:visited, a:active {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
-
+/* Decided that extra description on image hover not required*/
 .projects_list_link:hover div{
 	opacity: 1;
-	-webkit-transform: scale(0.91);
-	transform: scale(0.91);
+	/*-webkit-transform: scale(0.91);
+	transform: scale(0.91);*/
 }
 
 .projects_list_link:hover{
