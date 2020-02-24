@@ -212,6 +212,7 @@
                         $('.thanks_for_mail').removeClass('thanks_for_mail_visible');
                     }, 6000);
                     window.scrollTo(0, 0);
+                    $(".send_message").trigger("reset");
                 }
             });
             event.preventDefault();
