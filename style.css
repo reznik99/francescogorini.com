@@ -794,7 +794,7 @@ a, a:visited, a:active {
 	border: 2px solid #333;
 }
 
-.thanks_for_mail{
+.form_message{
 	display:block;
 	position: fixed;
 	width:100%;
@@ -806,7 +806,7 @@ a, a:visited, a:active {
     transition: 0.5s ease-in-out;
 }
 
-.thanks_for_mail_visible{
+.form_message_visible{
 	transform:translateX(0px);
 }
 
