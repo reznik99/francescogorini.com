@@ -12,10 +12,6 @@
 </head>
 
 <body>
-    <div class="under_construction">
-        <p>Unfinished Website! <br> Things will change</p>
-        <a>OK</a>
-    </div>
     <p class="form_message"></p>
     <div class='nav'>
         <div class="scrollborderbottom"></div>
@@ -62,9 +58,11 @@
                         </a>
                     </div>
                     <article>
-                        <h1>GEngine 3D engine</h1>
-                        <p>3D engine built from scratch using C++ and the OpenGL Standard.
-                            Some features i plan to implement: Bump/Normal mapping, PCF(Percentage Closer Filtering/Smooth shadows), CSM(Cascading Shadow Maps), LOD(Level Of Detail), Object Collision</p><br>
+                        <h1>GEngine</h1>
+                        <p>3D engine built using C++ and the OpenGL Standard.
+                            Some features i plan to implement: Bump/Normal mapping, PCF(Percentage Closer
+                            Filtering/Smooth shadows), CSM(Cascading Shadow Maps), LOD(Level Of Detail), Object
+                            Collision</p><br>
                         <ul> <b>Features Implemented</b><br>
                             <li>Multiplayer (30 tick server)</li>
                             <li>Shadows</li>
@@ -91,9 +89,11 @@
                     <article>
                         <h1>Gorini Drive</h1>
                         <p>Made this webapp for personal use to store/backup data, Works on account by account basis.
-                            Each user has their own storage, also has `shared/public` storage which are files that can be
+                            Each user has their own storage, also has `shared/public` storage which are files that can
+                            be
                             seen/downloaded by other users.
-                            Max file upload is 20MB because i lack HDD space. Was hosted on RaspberryPi until ISP blocked public IP. Now hosted on DigitalOcean VPS</p>
+                            Max file upload is 20MB because i lack HDD space. Was hosted on RaspberryPi until ISP
+                            blocked public IP. Now hosted on DigitalOcean VPS</p>
                         <div class="links">
                             <a href="http://167.172.213.48/login.php" target="_blank"><i class="fas fa-desktop"></i></a>
                             <a href="https://github.com/reznik99/GDrive" target="_blank"><i class="fas fa-code"></i></a>
@@ -159,13 +159,16 @@
                 </div>
                 <div class="about_me">
                     <h1>About me</h1>
-                    <p>I am a Computer Science student in the final Trimester in <a href="https://www.wgtn.ac.nz/" target="_blank">Victoria University of Wellington</a>.<br> Expected gradutation July 2020.
-                        I enjoy: </p>
+                    <p>My name is Francesco Gorini, <br> I graduated from <a href="https://www.wgtn.ac.nz/" target="_blank">Victoria University of Wellington</a>
+                        with a <b>Bachelor in Computer Science</b> in June 2020.<br>
+                        Born and raised in Italy, with an international background, I can speak Italian and English
+                        fluently,<br><br>
+                        My hobbies are:</p>
                     <ul class="about_me_list">
-                        <li>Gym / Fitness</li>
                         <li>Programming, Networking and Electronics</li>
                         <li>Physics and Engineering</li>
-                        <li>Driving</li>
+                        <li>Fitness / Calisthenics</li>
+                        <li>Driving / Travelling</li>
                         <li>Videogames</li>
                     </ul>
                 </div>
@@ -191,9 +194,10 @@
         <p class="credits">(&copy) 2018 Francesco Gorini | Design</p>
         <p class="phone"></p>
         <ul class="social_list">
-            <li><a href="https://facebook.com"><i class="fab fa-facebook-f fa-2x"></i></a></li>
-            <li><a href="https://linkedin.com"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
-            <li><a href="https://github.com/reznik99"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a target="_blank" href="mailto:goras.francesco@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+            </li>
+            <li><a target="_blank" href="https://linkedin.com/in/francesco-gorini-b334861a6/"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+            <li><a target="_blank" href="https://github.com/reznik99"><i class="fab fa-github fa-2x"></i></a></li>
         </ul>
     </footer>
 </body>
@@ -222,9 +226,9 @@
                     $(".send_message").trigger("reset"); //empty form
                 },
                 error: function(xhr, ajaxOptions, thrownError) {
-                    if(xhr.status == 403) {
+                    if (xhr.status == 403) {
                         showMessage("Captcha Failed, mail not sent, try again!");
-                    } else if(xhr.status == 500) {
+                    } else if (xhr.status == 500) {
                         showMessage("Couldn't send mail, possible mail server error! Please try again later or email me with your own client at goras.francesco@gmail.com");
                     }
                 }
