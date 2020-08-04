@@ -32,9 +32,6 @@ body{
 	list-style-type: none;
 }
 
-a, a:visited, a:active {
-}
-
 /* NAVIGATION/SCROLLBAR */
 
 .nav{
@@ -173,7 +170,8 @@ a, a:visited, a:active {
 .home_about_me_btn:hover .rotate{
 	-webkit-transform:rotate(90deg);
 	-moz-transform:rotate(90deg);
-	-o-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .home_about_me_btn:hover::before{
@@ -593,7 +591,7 @@ a, a:visited, a:active {
 	margin-bottom:10px;
 }
 .projects_list li article p{
-	margin-top:20px;
+	margin-top:10px;
 }
 .projects_list li article .links{
 	display: flex;
@@ -919,7 +917,7 @@ a, a:visited, a:active {
 			padding:1.5rem;
 		}
 		.change{
-			/*! right: calc(40% - 2em); */
+			right: calc(40% - 2em);
 		}
 
 		/* content */
@@ -930,6 +928,7 @@ a, a:visited, a:active {
 		.about_container, .skills_container{
 			width:100%;
 			flex-direction: column;
+			padding: 20px 0;
 		}
 		.about_profile_container{
 			float:none;
