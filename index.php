@@ -27,7 +27,8 @@
         <ul class="side_menu_list">
             <li class="side_menu_list_item"><a class="side_menu_list_item_link" href="#home">Home</a></li>
             <li class="side_menu_list_item"><a class="side_menu_list_item_link" href="#about">About</a></li>
-            <li class="side_menu_list_item"><a class="side_menu_list_item_link" href="#header_projects_divider">Projects</a></li>
+            <li class="side_menu_list_item"><a class="side_menu_list_item_link"
+                    href="#header_projects_divider">Projects</a></li>
             <li class="side_menu_list_item"><a class="side_menu_list_item_link" href="#contact">Contact</a></li>
         </ul>
     </div>
@@ -37,11 +38,13 @@
                 <div class="highlighted_text">Francesco Gorini</div>,<br>
                 A Software Developer
             </h1>
-            <a class="home_about_me_btn" href="#header_projects_divider">Projects <i class="fas fa-arrow-right rotate"></i></a>
+            <a class="home_about_me_btn" href="#header_projects_divider">Projects <i
+                    class="fas fa-arrow-right rotate"></i></a>
         </div>
     </div>
     <div class="header_projects_divider">
-        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="75" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="75" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
             <polygon points="0 100, 50 0, 100, 100" style="fill:#1b242f;"></polygon>
         </svg>
     </div>
@@ -51,7 +54,8 @@
             <ul class="projects_list">
                 <li>
                     <div class="projects_list_link_container">
-                        <a class="projects_list_link" href="https://github.com/reznik99/C-OpenGL-3D-Engine" target="_blank">
+                        <a class="projects_list_link" href="https://github.com/reznik99/C-OpenGL-3D-Engine"
+                            target="_blank">
                             <div>
                                 <p>C++, OpenGL, GLSL.</p>
                             </div>
@@ -71,18 +75,27 @@
                             <li>Terrain Collision</li>
                         </ul>
                         <div class="links">
-                            <a href="https://github.com/reznik99/C-OpenGL-3D-Engine" target="_blank"><i class="fas fa-desktop"></i></a>
+                            <a href="https://github.com/reznik99/C-OpenGL-3D-Engine" target="_blank"><i
+                                    class="fas fa-desktop"></i></a>
                             <a href="https://github.com/reznik99/C-OpenGL-3D-Engine"><i class="fas fa-code"></i></a>
                         </div>
-                        <p><br>Tags: <i class="devicon-cplusplus-plain colored fa-2x"></i>, <img src="resources/opengl.png">, GLSL. <br>
-                            (Same engine w/o multiplayer also in <i class="devicon-java-plain-wordmark colored fa-2x"></i> and LWJGL)</p>
+                        <p><br>Tags: <i class="devicon-cplusplus-plain colored fa-2x"></i>,
+
+                            <picture class="profile_pic">
+                                <source type="image/webp" srcset="resources/opengl.webp">
+                                <img src="resources/opengl.png">
+                            </picture>
+                            , GLSL. <br>
+                            (Same engine w/o multiplayer also in <i
+                                class="devicon-java-plain-wordmark colored fa-2x"></i> and LWJGL)</p>
                     </article>
                 </li>
                 <li>
                     <div class="projects_list_link_container">
                         <a class="projects_list_link" href="http://167.172.213.48/" target="_blank">
                             <div>
-                                <p>Front-end: <i class="fab fa-html5"></i>, <i class="fab fa-css3"></i> and <i class="fab fa-js"></i> with JQuery framework<br>Back-end: PHP and MYSQL</p>
+                                <p>Front-end: <i class="fab fa-html5"></i>, <i class="fab fa-css3"></i> and <i
+                                        class="fab fa-js"></i> with JQuery framework<br>Back-end: PHP and MYSQL</p>
                             </div>
                         </a>
                     </div>
@@ -99,8 +112,13 @@
                             <a href="https://github.com/reznik99/GDrive" target="_blank"><i class="fas fa-code"></i></a>
                         </div>
                         <p><br>
-                            Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i class="devicon-css3-plain colored fa-2x"></i>, <i class="devicon-nodejs-plain colored fa-2x"></i> and <i class="devicon-jquery-plain-wordmark colored fa-2x"></i>.<br>
-                            Back-end: <i class="devicon-php-plain colored fa-2x"></i>, <i class="devicon-mysql-plain colored fa-2x"></i>, <i class="devicon-apache-line-wordmark fa-2x"></i>, RaspberryPi
+                            Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i
+                                class="devicon-css3-plain colored fa-2x"></i>, <i
+                                class="devicon-nodejs-plain colored fa-2x"></i> and <i
+                                class="devicon-jquery-plain-wordmark colored fa-2x"></i>.<br>
+                            Back-end: <i class="devicon-php-plain colored fa-2x"></i>, <i
+                                class="devicon-mysql-plain colored fa-2x"></i>, <i
+                                class="devicon-apache-line-wordmark fa-2x"></i>, RaspberryPi
                         </p>
                     </article>
                 </li>
@@ -121,8 +139,13 @@
                             <a class="unclickable"><i class="fas fa-code"></i></a>
                         </div>
                         <p><br>
-                            Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i class="devicon-css3-plain colored fa-2x"></i>, <i class="devicon-nodejs-plain colored fa-2x"></i> and <i class="devicon-jquery-plain-wordmark colored fa-2x"></i>.<br>
-                            Back-end: <i class="devicon-php-plain colored fa-2x"></i>, <i class="devicon-mysql-plain colored fa-2x"></i>, <i class="devicon-apache-line-wordmark fa-2x"></i>
+                            Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i
+                                class="devicon-css3-plain colored fa-2x"></i>, <i
+                                class="devicon-nodejs-plain colored fa-2x"></i> and <i
+                                class="devicon-jquery-plain-wordmark colored fa-2x"></i>.<br>
+                            Back-end: <i class="devicon-php-plain colored fa-2x"></i>, <i
+                                class="devicon-mysql-plain colored fa-2x"></i>, <i
+                                class="devicon-apache-line-wordmark fa-2x"></i>
                         </p>
                     </article>
                 </li>
@@ -140,11 +163,15 @@
                             Also hosted on RaspberryPi</p>
                         <div class="links">
                             <a href="mainframe/index.php" target="_blank"><i class="fas fa-desktop"></i></a>
-                            <a href="https://github.com/reznik99/mainframe" target="_blank"><i class="fas fa-code"></i></a>
+                            <a href="https://github.com/reznik99/mainframe" target="_blank"><i
+                                    class="fas fa-code"></i></a>
                         </div>
                         <p><br>
-                            Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i class="devicon-css3-plain colored fa-2x"></i>, <i class="devicon-nodejs-plain colored fa-2x"></i>.<br>
-                            Back-end: <i class="devicon-php-plain colored fa-2x"></i>, <i class="devicon-mysql-plain colored fa-2x"></i>
+                            Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i
+                                class="devicon-css3-plain colored fa-2x"></i>, <i
+                                class="devicon-nodejs-plain colored fa-2x"></i>.<br>
+                            Back-end: <i class="devicon-php-plain colored fa-2x"></i>, <i
+                                class="devicon-mysql-plain colored fa-2x"></i>
                         </p>
                     </article>
                 </li>
@@ -155,11 +182,15 @@
         <div class="about_wrap">
             <div class="about_container">
                 <div class="about_profile_container">
-                    <img src="resources/profile.jpg" alt="Me" class="profile_pic" />
+                    <picture class="profile_pic">
+                        <source type="image/webp" srcset="resources/profile.webp">
+                        <img src="resources/profile.jpg" class="profile_pic" />
+                    </picture>
                 </div>
                 <div class="about_me">
                     <h1>About me</h1>
-                    <p>My name is Francesco Gorini, <br> I graduated from <a href="https://www.wgtn.ac.nz/" target="_blank">Victoria University of Wellington</a>
+                    <p>My name is Francesco Gorini, <br> I graduated from <a href="https://www.wgtn.ac.nz/"
+                            target="_blank">Victoria University of Wellington</a>
                         with a <b>Bachelor in Computer Science</b> in June 2020.<br>
                         Born and raised in Italy, with an international background, I can speak Italian and English
                         fluently,<br><br>
@@ -177,7 +208,8 @@
     </div>
 
     <div class="angled_prefooter">
-        <svg preserveAspectRatio="none" viewBox="0 0 100 100" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+        <svg preserveAspectRatio="none" viewBox="0 0 100 100" height="75" width="100%" version="1.1"
+            xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
             <polygon points="0 100, 0 0, 50 100, 100 0, 100 100" fill="#1b242f"></polygon>
         </svg>
     </div>
@@ -196,20 +228,23 @@
         <ul class="social_list">
             <li><a target="_blank" href="mailto:goras.francesco@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
             </li>
-            <li><a target="_blank" href="https://linkedin.com/in/francesco-gorini-b334861a6/"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+            <li><a target="_blank" href="https://linkedin.com/in/francesco-gorini-b334861a6/"><i
+                        class="fab fa-linkedin-in fa-2x"></i></a></li>
             <li><a target="_blank" href="https://github.com/reznik99"><i class="fab fa-github fa-2x"></i></a></li>
         </ul>
     </footer>
 </body>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+    integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+<link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="script.js"></script>
 <script>
     //submit email
-    $(document).ready(function() {
-        $(".submit_button").on('click', function(event) {
+    $(document).ready(function () {
+        $(".submit_button").on('click', function (event) {
             console.log(grecaptcha.getResponse());
             $.ajax({
                 type: "post",
@@ -220,12 +255,12 @@
                     message: $(".send_message textarea[name='message']").val(),
                     recaptcha_response: grecaptcha.getResponse(),
                 },
-                success: function() {
+                success: function () {
                     showMessage("Email has been sent, I will be in touch soon!");
                     window.scrollTo(0, 0); //scroll to top
                     $(".send_message").trigger("reset"); //empty form
                 },
-                error: function(xhr, ajaxOptions, thrownError) {
+                error: function (xhr, ajaxOptions, thrownError) {
                     if (xhr.status == 403) {
                         showMessage("Captcha Failed, mail not sent, try again!");
                     } else if (xhr.status == 500) {
@@ -239,7 +274,7 @@
         function showMessage(message) {
             $('.form_message').text(message);
             $('.form_message').addClass('form_message_visible');
-            setTimeout(function() {
+            setTimeout(function () {
                 $('.form_message').removeClass('form_message_visible');
             }, 6000);
         }
