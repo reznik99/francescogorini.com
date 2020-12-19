@@ -169,8 +169,8 @@
 				<div class="about_me">
 					<h1>About me</h1>
 					<p>I graduated from <a href="https://www.wgtn.ac.nz/" target="_blank">Victoria University of Wellington</a>
-						with a <b>Bachelor in Computer Science. I am fluent in both English and Italian. <br><br>
-							My hobbies are:</p>
+						with a <b>Bachelor in Computer Science</b>. I am fluent in both English and Italian. <br><br>
+						My hobbies are:</p>
 					<ul class="about_me_list">
 						<li>Programming, Networking and Electronics</li>
 						<li>Physics and Engineering</li>
