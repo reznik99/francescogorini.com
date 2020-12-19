@@ -1,5 +1,5 @@
 DirectoryIndex index.php
 
-<FilesMatch "\.(gif|jpg|jpeg|png)$">
-     Header set Cache-Control "max-age=172800"
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|webp|swf)$">
+    Header set Cache-Control "max-age=63072000, public"
 </FilesMatch>
