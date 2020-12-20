@@ -78,7 +78,7 @@
 
                             <picture class="profile_pic">
                                 <source type="image/webp" srcset="resources/opengl.webp">
-                                <img src="resources/opengl.png">
+                                <img src="resources/opengl.png" loading="lazy">
                             </picture>
                             , GLSL. <br>
                             (Same engine w/o multiplayer also in <i class="devicon-java-plain-wordmark colored fa-2x"></i> and LWJGL)</p>
@@ -163,7 +163,7 @@
                 <div class="about_profile_container">
                     <picture class="profile_pic">
                         <source type="image/webp" srcset="resources/profile.webp">
-                        <img src="resources/profile.jpg" class="profile_pic" />
+                        <img src="resources/profile.jpg" class="profile_pic" loading="lazy" />
                     </picture>
                 </div>
                 <div class="about_me">
