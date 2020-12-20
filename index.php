@@ -77,10 +77,11 @@
 
                             <picture class="profile_pic">
                                 <source type="image/webp" srcset="resources/opengl.webp">
-                                <img src="resources/opengl.png" loading="lazy">
+                                <img src="resources/opengl.png" alt="Opengl logo" loading="lazy">
                             </picture>
                             , GLSL. <br>
-                            (Same engine w/o multiplayer also in <i class="devicon-java-plain-wordmark colored fa-2x"></i> and LWJGL)</p>
+                            (Same engine w/o multiplayer also in <i class="devicon-java-plain-wordmark colored fa-2x"></i> and LWJGL)
+                        </p>
                     </article>
                 </li>
                 <li>
@@ -162,12 +163,13 @@
                 <div class="about_profile_container">
                     <picture class="profile_pic">
                         <source type="image/webp" srcset="resources/profile.webp">
-                        <img src="resources/profile.jpg" class="profile_pic" loading="lazy" />
+                        <img src="resources/profile.jpg" alt="Profile picture" class="profile_pic" loading="lazy" />
                     </picture>
                 </div>
                 <div class="about_me">
                     <h1>About me</h1>
-                    <p>I graduated from <a href="https://www.wgtn.ac.nz/" target="_blank" rel="noopener">Victoria University of Wellington</a>
+                    <p>I graduated from <a href="https://www.wgtn.ac.nz/" target="_blank" rel="noopener">Victoria
+                            University of Wellington</a>
                         with a <b>Bachelor in Computer Science</b>. I am fluent in both English and Italian. <br><br>
                         My hobbies are:</p>
                     <ul class="about_me_list">
