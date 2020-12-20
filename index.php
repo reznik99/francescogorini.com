@@ -5,10 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Francesco Gorini</title>
-    <meta name="description" content="Francesco Gorini portfolio">
+    <meta name="description" content="Hi!, I am Francesco Gorini, and this is my portfolio website">
     <meta name="author" content="Francesco Gorini">
     <link rel="stylesheet" href="style.css">
-    <script src="https://www.google.com/recaptcha/api.js" defer></script>
 </head>
 
 <body>
@@ -206,11 +205,24 @@
             <li><a target="_blank" rel="noopener" href="https://github.com/reznik99"><i class="fab fa-github fa-2x"></i></a></li>
         </ul>
     </footer>
+
+    <!-- IMPORTS -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+
+    <!-- Load CSS async (not crucial to inital page render) -->
+    <link rel="preload" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <!-- Load JS async (not crucial to inital page render) -->
+    <script src="https://www.google.com/recaptcha/api.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <!-- Fall back for CSS async loading -->
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    </noscript>
 </body>
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" defer></script>
-<script src="script.js" defer></script>
 
 </html>
