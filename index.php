@@ -51,7 +51,7 @@
             <ul class="projects_list">
                 <li>
                     <div class="projects_list_link_container">
-                        <a class="projects_list_link" href="https://github.com/reznik99/C-OpenGL-3D-Engine" target="_blank">
+                        <a class="projects_list_link" href="https://github.com/reznik99/C-OpenGL-3D-Engine" target="_blank" rel="noopener">
                             <div>
                                 <p>C++, OpenGL, GLSL.</p>
                             </div>
@@ -71,7 +71,7 @@
                             <li>Terrain Collision</li>
                         </ul>
                         <div class="links">
-                            <a href="https://github.com/reznik99/C-OpenGL-3D-Engine" target="_blank"><i class="fas fa-desktop"></i></a>
+                            <a href="https://github.com/reznik99/C-OpenGL-3D-Engine" target="_blank" rel="noopener"><i class="fas fa-desktop"></i></a>
                             <a href="https://github.com/reznik99/C-OpenGL-3D-Engine"><i class="fas fa-code"></i></a>
                         </div>
                         <p><br>Tags: <i class="devicon-cplusplus-plain colored fa-2x"></i>,
@@ -86,7 +86,7 @@
                 </li>
                 <li>
                     <div class="projects_list_link_container">
-                        <a class="projects_list_link" href="http://167.172.213.48/" target="_blank">
+                        <a class="projects_list_link" href="http://167.172.213.48/" target="_blank" rel="noopener">
                             <div>
                                 <p>Front-end: <i class="fab fa-html5"></i>, <i class="fab fa-css3"></i> and <i class="fab fa-js"></i> with JQuery framework<br>Back-end: PHP and MYSQL</p>
                             </div>
@@ -101,8 +101,8 @@
                             Max file upload is 20MB because i lack HDD space. Was hosted on RaspberryPi until ISP
                             blocked public IP. Now hosted on DigitalOcean VPS</p>
                         <div class="links">
-                            <a href="http://167.172.213.48/login.php" target="_blank"><i class="fas fa-desktop"></i></a>
-                            <a href="https://github.com/reznik99/GDrive" target="_blank"><i class="fas fa-code"></i></a>
+                            <a href="http://167.172.213.48/login.php" target="_blank" rel="noopener"><i class="fas fa-desktop"></i></a>
+                            <a href="https://github.com/reznik99/GDrive" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>
                         </div>
                         <p><br>
                             Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i class="devicon-css3-plain colored fa-2x"></i>, <i class="devicon-nodejs-plain colored fa-2x"></i> and <i class="devicon-jquery-plain-wordmark colored fa-2x"></i>.<br>
@@ -112,7 +112,7 @@
                 </li>
                 <li>
                     <div class="projects_list_link_container">
-                        <a class="projects_list_link" href="https://louisehaywardbooks.com" target="_blank">
+                        <a class="projects_list_link" href="https://louisehaywardbooks.com" target="_blank" rel="noopener">
                             <div>
                                 <p>Front-end: HTML, CSS and JS with JQuery framework<br>Back-end: PHP and MYSQL</p>
                             </div>
@@ -123,7 +123,7 @@
                         <p>'Made this website to sell a book, allow users to signup to news letter for updates
                             and pricings on book.'</p>
                         <div class="links">
-                            <a href="https://louisehaywardbooks.com" target="_blank"><i class="fas fa-desktop"></i></a>
+                            <a href="https://louisehaywardbooks.com" target="_blank" rel="noopener"><i class="fas fa-desktop"></i></a>
                             <a class="unclickable"><i class="fas fa-code"></i></a>
                         </div>
                         <p><br>
@@ -134,7 +134,7 @@
                 </li>
                 <li>
                     <div class="projects_list_link_container">
-                        <a class="projects_list_link" href="mainframe/index.php" target="_blank">
+                        <a class="projects_list_link" href="mainframe/index.php" target="_blank" rel="noopener">
                             <div>
                                 <p>Front-end: HTML, CSS and JS with JQuery framework<br>Back-end: PHP and MySQL</p>
                             </div>
@@ -145,8 +145,8 @@
                         <p>Made this webapp retro style public chat, no authentication, just free for all chat.
                             Also hosted on RaspberryPi</p>
                         <div class="links">
-                            <a href="mainframe/index.php" target="_blank"><i class="fas fa-desktop"></i></a>
-                            <a href="https://github.com/reznik99/mainframe" target="_blank"><i class="fas fa-code"></i></a>
+                            <a href="mainframe/index.php" target="_blank" rel="noopener"><i class="fas fa-desktop"></i></a>
+                            <a href="https://github.com/reznik99/mainframe" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>
                         </div>
                         <p><br>
                             Front-end: <i class="devicon-html5-plain colored fa-2x"></i></i>, <i class="devicon-css3-plain colored fa-2x"></i>, <i class="devicon-nodejs-plain colored fa-2x"></i>.<br>
@@ -168,7 +168,7 @@
                 </div>
                 <div class="about_me">
                     <h1>About me</h1>
-                    <p>I graduated from <a href="https://www.wgtn.ac.nz/" target="_blank">Victoria University of Wellington</a>
+                    <p>I graduated from <a href="https://www.wgtn.ac.nz/" target="_blank" rel="noopener">Victoria University of Wellington</a>
                         with a <b>Bachelor in Computer Science</b>. I am fluent in both English and Italian. <br><br>
                         My hobbies are:</p>
                     <ul class="about_me_list">
@@ -201,9 +201,9 @@
         <p class="credits">(&copy) 2018 Francesco Gorini | Design</p>
         <p class="phone"></p>
         <ul class="social_list">
-            <li><a target="_blank" href="mailto:goras.francesco@gmail.com"><i class="fas fa-envelope fa-2x"></i></a></li>
-            <li><a target="_blank" href="https://linkedin.com/in/francesco-gorini-b334861a6/"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
-            <li><a target="_blank" href="https://github.com/reznik99"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a target="_blank" rel="noopener" href="mailto:goras.francesco@gmail.com"><i class="fas fa-envelope fa-2x"></i></a></li>
+            <li><a target="_blank" rel="noopener" href="https://linkedin.com/in/francesco-gorini-b334861a6/"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+            <li><a target="_blank" rel="noopener" href="https://github.com/reznik99"><i class="fab fa-github fa-2x"></i></a></li>
         </ul>
     </footer>
 </body>
