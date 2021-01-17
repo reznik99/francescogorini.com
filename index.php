@@ -8,6 +8,7 @@
     <meta name="description" content="Hi!, I am Francesco Gorini, and this is my portfolio website">
     <meta name="author" content="Francesco Gorini">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/resources/favicon.ico">
 </head>
 
 <body>
