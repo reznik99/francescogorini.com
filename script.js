@@ -32,10 +32,9 @@ $(document).ready(function () {
 
     //submit email
     $(".submit_button").on('click', function (event) {
-        console.log(grecaptcha.getResponse());
         $.ajax({
             type: "post",
-            url: "sendEmail.php",
+            url: "http://localhost/api/sendEmail",
             data: {
                 name: $(".send_message input[name='name']").val(),
                 email: $(".send_message input[name='email']").val(),
