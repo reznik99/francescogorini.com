@@ -66,7 +66,7 @@ body{
 	transform: translate(0, -50%);
 	display: inline-block;
 	letter-spacing: 2px;
-	font-weight: 6;
+	font-weight: 300;
 	text-transform: uppercase;
 	max-width: 25%;
 }
@@ -341,7 +341,7 @@ body{
 
 .about_me h1{
     text-align: center;
-	font-weight: lighter;
+	font-weight: 300;
     position: relative;
     letter-spacing: 2px;
 	margin: 5% 0px;
@@ -360,147 +360,6 @@ body{
 	list-style-image: url(resources/right-arrow.svg);
 	text-align: left;
 }
-/* SKILLS */
-/*
- .skills_container{
-	position: relative;
-	left: 10%;
-	float:left;
-	clear:both;
-	display:block;
-	width: 80%;
-	height:auto;
-	padding: 10px;
-	color: #fff;
-}
-
-.skills{
-	background-color: #1b242f;
-}
-
-.skills_title{
-	display:block;
-	float:left;
-	clear:both;
-	position: relative;
-	width:50%;
-	left:25%;
-	text-align:center;
-	margin-bottom:15px;
-}
-
-.skills_list{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	float: left;
-	clear: both;
-	width: 100%;
-}
-
-.skills_list_item{
-	position: relative;
-	padding:20px;
-	cursor:pointer;
-	border: 2px solid transparent;
-	overflow: hidden;
-	-webkit-transition: 0.6s all;
-	transition: 0.6s all;
-}
-
-.skills_list_item_hovered{
-	background-color: #901915;
-	color: #fff;
-	border-radius: 10px;
-}
-
-.skills_list_icon{
-	position: absolute;
-	left:0px;
-	top:0px;
-	width:100%;
-	height:100%;
-	opacity: 0;
-	background-color: #901915;
-	border-radius: 10px;
-	-webkit-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;
-}
-.skills_list_icon i{
-	position: relative;
-	top:50%;
-	left:50%;
-	width:100%;
-	-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);
-}
-
-.skills_list_item:hover .skills_list_icon{
-	opacity:1;
-}
-
-.skills_description{
-	display:none;
-	float:left;
-	background-color: #fff;
-	color: #333;
-	width:100%;
-	opacity:0;
-	-webkit-transition: 0.4s all;
-	transition: 0.4s all;
-	padding:20px;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-}
-
-.language_grade{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	float:left;
-	clear:both;
-	width:100%;
-	margin:20px 0;
-}
-
-.skill_level {
-	position: relative;
-	display: block;
-	width: 150px;
-	height: 150px;
-}
-
-.skills_description p{
-	float:left;
-	width: 50%;
-	text-align: left;
-}
-
-.visible_description{
-	opacity:1;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
-
-.skills_description_arrow{
-	width: 25px;
-	height: 25px;
-	float: left;
-	clear: both;
-	display: block;
-	-webkit-transition: margin-left 0.4s cubic-bezier(0.77,0.2,0.05,1.0);
-	transition: margin-left 0.4s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-*/
 
 /* DIVIDER */
 
@@ -545,7 +404,7 @@ body{
     display: block;
     float: left;
     width: inherit;
-    height: 4px;
+    height: 3px;
     left: 25%;
     background-color: #fff;
 }
@@ -565,7 +424,7 @@ body{
 	position: relative;
 	width: 100%;
 	height:auto;
-	padding: 5vw;
+	padding: 2vw;
 }
 
 .projects_list > li{
@@ -635,15 +494,18 @@ body{
 }
 
 .projects_list li:nth-child(1) .projects_list_link{
-	background-image: url(resources/gengine.png);
+	background-image: url(resources/cryptotools.png);
 }
 .projects_list li:nth-child(2) .projects_list_link{
-	background-image: url(resources/gdrive.png);
+	background-image: url(resources/gengine.png);
 }
 .projects_list li:nth-child(3) .projects_list_link{
-	background-image: url(resources/louisewebsite.png);
+	background-image: url(resources/gdrive.png);
 }
 .projects_list li:nth-child(4) .projects_list_link{
+	background-image: url(resources/louisewebsite.png);
+}
+.projects_list li:nth-child(5) .projects_list_link{
 	background-image: url(resources/mainframe.png);
 }
 
@@ -714,7 +576,7 @@ body{
 }
 
 .contact h1{
-	font-weight: lighter;
+	font-weight: 300;
 	letter-spacing: 3px;
 }
 
