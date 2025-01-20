@@ -128,6 +128,15 @@ body{
 	display:inline-block;
 }
 
+.pgp_keys_btn{
+	display:inline-block;
+	margin:50px auto 0px auto;
+	color: #901915;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+	z-index: 1;
+}
+
 .home_about_me_btn{
 	position: relative;
 	display: block;
@@ -135,7 +144,7 @@ body{
 	font-size:1.5em;
 	padding: 24px 0px;
 	background: #901915;
-	margin: 18% auto;
+	margin: 100px auto;
 	letter-spacing: 4px;
 	text-transform:uppercase;
 	z-index: 1;
