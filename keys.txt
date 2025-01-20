@@ -1,0 +1,21 @@
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: User ID:       francesco gorini <goras.francesco@protonmail.com>
+Comment: Valid from:    20/01/2025 22:22
+Comment: Valid until:   21/01/2030 12:00
+Comment: Type:  255-bit EdDSA (secret key available)
+Comment: Usage: Signing, Encryption, Certifying User IDs
+Comment: Fingerprint:   018F1EA993D04B3F412974A60C71465A20D2F0FF
+
+
+mDMEZ44VuhYJKwYBBAHaRw8BAQdAkcxtTGDztFtBpr88WIycVAVBzwNUpNYo5AjS
+bbp4xS+0MWZyYW5jZXNjbyBnb3JpbmkgPGdvcmFzLmZyYW5jZXNjb0Bwcm90b25t
+YWlsLmNvbT6ImQQTFgoAQRYhBAGPHqmT0Es/QSl0pgxxRlog0vD/BQJnjhW6AhsD
+BQkJaBK2BQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEAxxRlog0vD/HV8B
+AIpG/LrmHxdbrEUEw7B3Yh0gWAhWCP7qYQ3h4+W2tY0MAPwOGaaB8NQbxB3MCB62
+fw8EQGKRemuDFR9+cJedlYbrCLg4BGeOFboSCisGAQQBl1UBBQEBB0CnyxVZ9x5S
+pZCuDlbqYTxtN6aeJ10YlFOOrD7tyKZ5SwMBCAeIfgQYFgoAJhYhBAGPHqmT0Es/
+QSl0pgxxRlog0vD/BQJnjhW6AhsMBQkJaBK2AAoJEAxxRlog0vD/qo8BALPQJ0K7
+yKV6ebyHIXoGWwegm+J11XZGAbV6+0gw+Nr8AP9f8hQdP5Efb80qLOKBjH+px4A5
+8vAU6Iudb5coMrA5Cw==
+=ApQ0
+-----END PGP PUBLIC KEY BLOCK-----
